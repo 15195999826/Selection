@@ -103,7 +103,7 @@ public class Post extends Activity implements View.OnClickListener{
 
     @Override
     public void onClick(View view) {
-        if (view.getId() == R.id.btn2) {
+        if (view.getId() == R.id.btn) {
             String xh = ((StudentInfo) getApplication()).getStudentid();
             //创建map类
             Map<String, Object> params = new HashMap<String, Object>();
